@@ -1,0 +1,33 @@
+.tit {
+	color: var(--point);
+	font-family: var(--font-nanum);
+	font-weight: 400;
+	font-size: 16px;
+
+	a {
+		font-size: inherit;
+		color: inherit;
+		font-family: inherit;
+		font-weight: inherit;
+	}
+
+	&.tit_logo {
+		font-family: var(--font-nanum);
+		font-weight: 700;
+		color: #fff;
+		font-size: 22px;
+	}
+	&.tit_subTitle {
+		font-size: 20px;
+		color: #ccc;
+	}
+
+	&.tit_slogan {
+		font-size: 5vw;
+		color: #fff;
+		font-family: var(--font-nanum);
+	}
+	&:hover {
+		color: var(--point);
+	}
+}

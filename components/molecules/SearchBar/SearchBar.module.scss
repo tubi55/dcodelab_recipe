@@ -1,0 +1,14 @@
+.searchBar {
+	position: relative;
+	max-height: 70px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+
+	svg {
+		position: absolute;
+		right: 10px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}

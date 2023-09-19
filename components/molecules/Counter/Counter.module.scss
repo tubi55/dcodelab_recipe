@@ -1,0 +1,19 @@
+.counter {
+	position: absolute;
+	top: 20vh;
+	right: 30vw;
+	font-size: 20px;
+	color: #888;
+	opacity: 0.8;
+	font-style: italic;
+
+	strong {
+		font-size: 80px;
+		color: #fff;
+	}
+	span {
+		font-size: 30px;
+		color: #888;
+		margin-left: 20px;
+	}
+}

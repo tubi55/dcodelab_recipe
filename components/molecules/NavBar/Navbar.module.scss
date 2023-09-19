@@ -1,0 +1,17 @@
+.gnb {
+	display: flex;
+	gap: 50px;
+}
+@media screen and (max-width: $mobile) {
+	.gnb {
+		gap: 10px;
+		flex-wrap: wrap;
+		font-size: 12px;
+		align-content: flex-start;
+
+		* {
+			width: 100%;
+			text-align: right;
+		}
+	}
+}
